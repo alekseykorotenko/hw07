@@ -39,7 +39,7 @@ body {
   display: flex;
 }
 .header .nav__item {
-  padding: 17px 1% 16px;
+  padding: 17px 1.5% 16px;
 }
 .header .nav__item:hover {
   text-decoration: underline;
@@ -51,7 +51,7 @@ body {
   background-color: #fff;
 }
 .header .nav--main .nav__item {
-  padding: 30px 1.5%;
+  padding: 30px 2%;
 }
 
 .menu,
