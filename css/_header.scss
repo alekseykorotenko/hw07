@@ -22,7 +22,6 @@
     }
     
     .nav--main {
-        border-top: 1px solid $primary-color;
         background-color: $main-color;
         .nav__item {
             padding: 30px 1.5%;
@@ -46,6 +45,8 @@
     @include flex(row, space-around, center);
     padding: 20px 0;
     background-color: $main-color;
+    border-bottom: 1px solid $primary-color;
+
     
     .logo {
         gap: 20px;

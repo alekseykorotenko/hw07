@@ -48,7 +48,6 @@ body {
   color: #333;
 }
 .header .nav--main {
-  border-top: 1px solid #EFEFEF;
   background-color: #fff;
 }
 .header .nav--main .nav__item {
@@ -72,6 +71,7 @@ body {
   align-items: center;
   padding: 20px 0;
   background-color: #fff;
+  border-bottom: 1px solid #EFEFEF;
 }
 .sides .logo {
   gap: 20px;
