@@ -1,0 +1,25 @@
+//Banner
+
+.banner {
+    @include flex (row, space-between, center)
+}
+
+img.banner {
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+.banner-text {
+    width: 50%;
+}
+
+.cont-banner-text {
+    @include flex (column, flex-start, flex-start);
+    gap: 30px;
+    padding-left: 14.5%;
+    color: $main-color;
+    position: absolute;
+    z-index: 2;
+
+}

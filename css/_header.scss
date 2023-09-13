@@ -1,0 +1,83 @@
+// Header
+
+.header {
+    background-color: $main-color;
+    
+    .menu {
+        background: $primary-color;
+    }
+    
+    .nav {
+        display: flex;
+    }
+    
+    .nav__item {
+        padding: 17px 1% 16px;
+        &:hover {
+            text-decoration: underline;
+        }
+            .nav__link {
+                color: #333;
+            }
+    }
+    
+    .nav--main {
+        border-top: 1px solid $primary-color;
+        background-color: $main-color;
+        .nav__item {
+            padding: 30px 1.5%;
+        }
+    }
+
+    
+}
+
+
+.menu,
+.nav--main-wrap,
+.nav--main,
+.flex-center {
+    @include flex(row, center, center);
+}
+
+// Sides
+
+.sides {
+    @include flex(row, space-around, center);
+    padding: 20px 0;
+    background-color: $main-color;
+    
+    .logo {
+        gap: 20px;
+    }
+    
+    .logo__name {
+        font-size: 2.25rem;
+        font-weight: 700;
+        line-height: 42px;
+        letter-spacing: 0.1em;
+        text-align: left;
+        color: $accent-color;
+        text-transform: uppercase;
+    }
+    
+    .call {
+        gap: 40px;
+    }
+    
+    .call__link {
+        font-size: .875rem;
+        font-weight: 700;
+        line-height: normal;
+        color: #000;
+        font-style: normal;
+    }
+
+    .call__btn {
+        border-color: $accent-color;
+        padding: 12px 26px 13px 27px;
+        background-color: $main-color;
+    }
+}
+
+
