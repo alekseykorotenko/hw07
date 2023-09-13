@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -138,4 +139,155 @@ img.banner {
   letter-spacing: 0.7px;
   border: 2px solid #fff;
   color: #fff;
+}
+
+.offers {
+  width: 80%;
+  position: relative;
+  left: 13%;
+}
+.offers .offers__heading {
+  margin: 80px 0 38px 0;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+.offers .goods {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+}
+.offers .goods .goods__item {
+  background-color: #fff;
+  margin-right: 30px;
+}
+.offers .goods .item-img {
+  padding: 25px 65px 20px;
+}
+.offers .goods .item-name {
+  font-size: 0.875rem;
+  padding: 30px 0 30px 20px;
+}
+.offers .goods .item-name a {
+  color: #333;
+}
+.offers .goods .item-price {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0 88px 20px 87px;
+  font-weight: 500;
+  font-size: 1.3125rem;
+}
+.offers .goods .item-btn {
+  margin: 0 63px 25px 62px;
+  width: 130px;
+  background-color: #F13C6E;
+  border-radius: 30px;
+  border-color: #F13C6E;
+  color: #fff;
+}
+
+.card {
+  margin-top: 100px;
+  width: 80%;
+  position: relative;
+  left: 11%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.card .card-body,
+.card .card-body--mod {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  justify-self: stretch;
+  background-color: #F13C6E;
+  width: 540px;
+}
+.card .card-body--mod {
+  position: relative;
+  left: -33px;
+}
+.card .card__title {
+  display: block;
+  padding: 35px 65px 25px 40px;
+  font-weight: 700;
+  color: #fff;
+}
+.card .card__text {
+  padding: 0 186px 25px 40px;
+  color: #fff;
+  line-height: 140%;
+  width: 129px;
+}
+.card .btn-link,
+.card .card__input {
+  width: 225px;
+  padding: 10px;
+  margin: 25px 90px 35px 40px;
+  border-radius: 30px;
+  background: #fff;
+}
+.card .card__input {
+  border: 0px;
+}
+.card .svg-container__img {
+  width: 140px;
+  margin: 36px 45px 36px 0;
+}
+.card .svg-container__img--mod {
+  width: 180px;
+  margin: 56px 45.3px 61px 0;
+}
+.card .btn-link {
+  background-color: #F13C6E;
+  border-radius: 30px;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+.card-table {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.card-table__item {
+  padding: 35px 64px;
+  background-color: #fff;
+  border: 1px solid #EFEFEF;
+}
+
+.footer {
+  margin-top: 80px;
+  background-color: #fff;
+}
+.footer .category {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  left: 11%;
+  width: 80%;
+}
+.footer .category .footer__heading {
+  padding: 60px 0 30px 0;
+  border-bottom: 1px solid #EFEFEF;
+}
+.footer .category .footer__nav {
+  font-size: 0.75rem;
+  line-height: 28px;
+  margin: 25px 0 60px 0;
+  border-bottom: 1px solid #EFEFEF;
+}
+.footer .category .footer__nav a {
+  color: #828282;
 }/*# sourceMappingURL=style.css.map */
