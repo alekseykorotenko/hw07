@@ -29,5 +29,12 @@ img.banner {
         line-height: 56px;
         text-align: left;
     }
+
+    .card-btn {
+        background-color: $accent-color;
+        letter-spacing: 0.7px;
+        border: 2px solid $main-color;
+        color: $main-color;
+    }
 }
 
