@@ -112,10 +112,6 @@ img.banner {
   z-index: 1;
 }
 
-.banner-text {
-  width: 50%;
-}
-
 .cont-banner-text {
   display: flex;
   flex-direction: column;
@@ -126,4 +122,13 @@ img.banner {
   color: #fff;
   position: absolute;
   z-index: 2;
+}
+.cont-banner-text .banner-text {
+  width: 50%;
+}
+.cont-banner-text .banner__heading {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 56px;
+  text-align: left;
 }/*# sourceMappingURL=style.css.map */
