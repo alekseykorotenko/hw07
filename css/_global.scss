@@ -7,6 +7,7 @@
 $accent-color: #F13C6E;
 $main-color: #fff;
 $primary-color: #EFEFEF;
+$addition-color: #828282;
 
 
 // RESET
@@ -29,6 +30,7 @@ html {
 body {
     font-size: 1rem;
     background-color: $primary-color;
+    color: #000;
 }
 
 .btn {

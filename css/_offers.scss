@@ -46,12 +46,18 @@
     }
 }
 
+.container-info,
+.card,
+.category,
+.container-info {
+    @include flex (row, space-around, center);
+}
+
 .card {
     margin-top: 100px;
     width: 80%;
     position: relative;
     left: 11%;
-    @include flex (row, space-around, center);
     
     .card-body,
     .card-body--mod {
@@ -71,6 +77,7 @@
         padding: 35px 65px 25px 40px;
         font-weight: 700;
         color: $main-color;
+        font-size: 1.125rem;
     }
     
     .card__text {
@@ -78,6 +85,7 @@
         color: $main-color;
         line-height: 140%;
         width: 129px;
+        font-size: .875rem;
     }
 
     .btn-link,
@@ -123,15 +131,14 @@
 }
 
 .footer {
-    // @include flex (row, center, center);
     margin-top: 80px;
     background-color: $main-color;
 
     .category {
-        @include flex (row, space-around, center);
         position: relative;
         left: 11%;
         width: 80%;
+        border-bottom: 1px solid $primary-color;
 
         .footer__heading {
             padding: 60px 0 30px 0;
@@ -141,10 +148,17 @@
             font-size: .75rem;
             line-height: 28px;
             margin: 25px 0 60px 0;
-            border-bottom: 1px solid $primary-color;
             a {
-                color: #828282;
+                color: $addition-color;
             }
         }
+    }
+
+    .container-info {
+        background-color: $primary-color;
+        color: $addition-color;
+        font-size: .75rem;
+        line-height: normal;
+        padding: 25px 0;
     }
 }
