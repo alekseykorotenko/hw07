@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+html {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+.menu {
+    background-color: #EFEFEF;
+    text-align: center;
+}
+
+.nav__item {
+    display: inline-block;
+    text-align: center;
+    padding: 17px 1% 16px;
+}
+
+.nav__link {
+    color: #333;
+    text-decoration: none;
+}
+
+.nav__link:hover {
+    text-decoration: underline;
+}
+
+.sides {
+    display: inline-block;
+    position: relative;
+    left: 21%;
+    width: 58%;
+    padding: 20px 0;
+    background-color: #fff;
+    /* border-bottom: 1px solid #EFEFEF; */
+}
+
+.sides div:nth-child(1) {
+    float: left;
+}
+
+.sides div:nth-child(2) {
+    float: right;
+}
+
+.logo {
+    text-decoration: none;
+    gap: 20px;
+    vertical-align: middle;
+    padding: 20px 0;
+}
+
+.logo__name {
+    color: #F13C6E;
+    font-weight: 700;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    vertical-align: middle;
+
+}
+
+.call {
+    vertical-align: middle;
+    padding: 40px 2% 41px 0;
+}
+
+.call__link {
+    text-decoration: none;
+    color: #000;
+    margin-right: 40px;
+}
+
+.btn {
+    padding: 12px 56px 13px 57px;
+    border-radius: 40px;
+    border: 2px solid #F13C6E;
+    background-color: #fff;
+}
+
+.btn__text {
+    font-size: .875rem;
+    margin: 0 20px;
+}
+
+.nav--main-wrap {
+    text-align: center;
+    border-top: 1px solid #EFEFEF;
+}
+
+.nav--main {
+    padding: 30px 1%;
+}
+
+.banner {
+    width: 100%;
+    position: relative;
+}
+
+.cont-banner-text {
+    position: absolute;
+    bottom: 143px;
+    left: 21%
+}
+
+.banner__heading {
+    font-size: 3rem;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.banner-text {
+    gap: 30px;
+    top: 50px;
+    color: #fff;
+    font-size: .875rem;
+}
+
+.card-btn {
+    margin-top: 20px;
+    background-color: #F13C6E;
+    color: #fff;
+    width: 170px;
+    border: 2px solid #fff;   
+}
+
+.main {
+    background-color: #EFEFEF;
+}
+
+.offers {
+    position: relative;
+    left: 21%;
+    width: 58%;
+}
+
+.offers__heading {
+    padding: 80px 0 38px;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.goods__item {
+    display: inline-block;
+    width: 23%;
+    text-align: center;
+    background-color: #fff;
+    margin-right: 2%;
+    margin-bottom: 100px;
+}
+
+.goods__item--mod {
+    margin-right: 0;
+}
+
+.item-img {
+    padding: 25px 6% 20px;
+}
+
+.item-name .product{
+    display: block;
+    color: #333;
+    text-decoration: none;
+    font-size: .875rem;
+    padding: 0 3% 20px ;
+}
+
+.item-price {
+    /* width: 21%; */
+    display: block;
+    padding: 0 0 20px;
+    font-size: 1.3125rem;
+    font-weight: 500;
+    letter-spacing: 1.05px;
+}
+
+.item-btn {
+    background-color: #F13C6E;
+    color: #fff;
+    font-size: .875rem;
+    margin: 0 6% 25px;
+}
+
+.card {
+    display: inline-block;
+    position: relative;
+    left: 21%;
+    width: 58%;
+}
+
+.card-body {
+    background-color: #F13C6E;
+    float: left;
+    width: 48%;
+}
+
+.card-body--mod {
+    float: right;
+}
+
+.card__title {
+    display: block;
+    padding: 35px 65px 25px 40px;
+    color: #fff;
+}
+
+.card__text {
+    display: block;
+    padding: 0 186px 25px 40px;
+    color: #fff;
+}
+
+.card__input {
+    padding: 9px 50px 9px 25px;
+    margin: 0 90px 35px 40px;
+    border-radius: 30px;
+    border: 0 ;
+}
+
+.text-container {
+    float: left;
+}
+
+.svg-container {
+    float: right;
+}
+.svg-container__img {
+    position: absolute;
+    right: 470px;
+    width: 140px;
+    top: 10%;
+}
+
+.svg-container__img--mod {
+    position: absolute;
+    width: 189px;
+    right: 2%;
+    top: 20%;
+}
+
+.btn-link {
+    margin: 0 0 35px 40px;
+    background-color: #F13C6E;
+    color: white;
+    white-space: nowrap;
+    width: 170px;
+    border: 2px solid #fff;
+    border-radius: 30px;
+    padding: 9px 0;
+}
