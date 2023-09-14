@@ -1,0 +1,40 @@
+// FOOTER SECTION
+
+.category,
+.container-info {
+    @include flex (row, space-around, center);
+}
+
+.footer {
+    margin-top: 80px;
+    background-color: $main-color;
+
+    .category {
+        position: relative;
+        left: 11%;
+        width: 80%;
+        border-bottom: 1px solid $primary-color;
+
+        .footer__heading {
+            padding: 60px 0 30px 0;
+            border-bottom: 1px solid $primary-color;
+        }
+        .footer__nav {
+            font-size: .75rem;
+            line-height: 28px;
+            margin: 25px 0 60px 0;
+            a {
+                color: $addition-color;
+            }
+        }
+    }
+
+    .container-info {
+        background-color: $primary-color;
+        color: $addition-color;
+        font-size: .75rem;
+        line-height: normal;
+        padding: 25px 0;
+    }
+}
+
